@@ -3,7 +3,7 @@ kind: ClusterConfig
 
 metadata:
   name: basic-cluster
-  region: eu-north-1
+  region: ap-south-1
 
 nodeGroups:
   - name: ng-1
@@ -17,4 +17,4 @@ nodeGroups:
     desiredCapacity: 2
     volumeSize: 100
     ssh:
-      publicKeyPath: ~/.ssh/ec2_id_rsa.pub
+      publicKeyPath: docker
