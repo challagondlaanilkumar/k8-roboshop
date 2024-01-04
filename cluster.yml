@@ -7,7 +7,6 @@ metadata:
 
 nodeGroups:
   - name: ng-1
-    spot: true
     instanceType: t2.large
     desiredCapacity: 3
     volumeSize: 80
